@@ -15,3 +15,4 @@
 4. Future features:
 - Save the search history for auto completion when user input next time
 - Get current location based on GPS to fetch data while location inputted is missing
+- Click on the item will show the map of the location
