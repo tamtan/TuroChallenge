@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/review_detail_list_item_ratingLH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dip"
+        android:layout_marginTop="1dip" >
+
+        <vinh.tan.tam.com.myapplication.view.ScalableImageView
+            android:id="@+id/pip_review_detail_rating_star_1_img"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/star_on"
+            android:visibility="visible" />
+
+        <vinh.tan.tam.com.myapplication.view.ScalableImageView
+            android:id="@+id/pip_review_detail_rating_star_2_img"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/star_on"
+            android:visibility="visible" />
+
+        <vinh.tan.tam.com.myapplication.view.ScalableImageView
+            android:id="@+id/pip_review_detail_rating_star_3_img"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/star_on"
+            android:visibility="visible" />
+
+        <vinh.tan.tam.com.myapplication.view.ScalableImageView
+            android:id="@+id/pip_review_detail_rating_star_4_img"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/star_on"
+            android:visibility="visible" />
+
+        <vinh.tan.tam.com.myapplication.view.ScalableImageView
+            android:id="@+id/pip_review_detail_rating_star_5_img"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/star_on"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/review_count_TV"
+            style="@style/Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dip"
+            tools:text="[n]"
+            android:textColor="@color/RGB102" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/plp_no_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-3dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/no_review"
+        android:visibility="gone" />
+
+</LinearLayout>

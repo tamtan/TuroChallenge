@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Turo\'s Code Challenge</string>
+    <string name="search">Search</string>
+    <string name="item">Item</string>
+    <string name="location">Location</string>
+    <string name="pip_rating_review_count">(%1$s)</string>
+
+</resources>
